@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #07f8f8 ;
+}
+h1{
+    font-size: 50px;
+    color: green;
+}
+input{
+    width: 140px;
+    height: 30px;
+}
+#input-real{
+    border: 3px solid green;
+    border-radius: 2px;
+}
+#input-dolar{
+    border: 3px solid red;
+    border-radius: 2px;
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+button :hover{
+    color: black;
+    background-color:white;
+}
